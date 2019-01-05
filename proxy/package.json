@@ -1,0 +1,30 @@
+{
+  "name": "proxy-ryanO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FEC-PLATO/proxy-ryanO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FEC-PLATO/proxy-ryanO/issues"
+  },
+  "homepage": "https://github.com/FEC-PLATO/proxy-ryanO#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
+    "path": "^0.12.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
