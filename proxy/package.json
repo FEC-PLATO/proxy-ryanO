@@ -1,28 +1,18 @@
 {
-  "name": "proxy-ryanO",
+  "name": "FECproxytarget",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FEC-PLATO/proxy-ryanO.git"
+    "start": "nodemon ./server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ryan Law",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FEC-PLATO/proxy-ryanO/issues"
-  },
-  "homepage": "https://github.com/FEC-PLATO/proxy-ryanO#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "morgan": "^1.9.1",
-    "nodemon": "^1.18.9",
+    "express": "^4.16.2",
+    "flexbox": "0.0.3",
+    "morgan": "^1.9.0",
     "path": "^0.12.7",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"

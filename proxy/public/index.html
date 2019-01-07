@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<!--     <link rel="stylesheet" href="/style.css"> -->
+    <link rel="stylesheet" href="/mainphoto.css">
+    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+    <link rel="stylesheet" href="/recommendedproducts.css">
+    <link rel="stylesheet" href="/reviews.css">
+    <title>FEC Target</title>
+    <style>
+        .container-1 {
+          display: flex;
+          align-items: stretch;
+        }
+        .box-1 {
+          flex: 1;
+        }
+        .box-2 {
+          flex: 0;
+          width: 20%;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container-1">
+        <div class="box-1">
+            <div id="MainPhotoCarousel"></div>
+        </div>
+        <div class="box-2"></div>
+            <div id="PreCheckoutInfo"></div>
+        </div>
+    </div>
+    <div id="RecommendedProducts"></div>
+    <div id="Reviews"></div>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="http://localhost:3001/bundle.js"></script>
+    <script src="http://localhost:3002/bundle.js"></script>
+    <script src="http://localhost:3003/app.bundle.js"></script>
+    <script src="http://localhost:3004/bundle.js"></script>
+    <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
+  </body>
+</html>
