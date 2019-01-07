@@ -1,0 +1,98 @@
+.nav-box {
+	
+	height: 75px;
+    padding: 0px 15px 0px 10px;
+	background-color: rgb(204,0,0);
+	align-items: center;
+    display: flex;
+    top: 0px;
+}
+
+.logo {
+	height: 75px;
+	width: 75px;
+	object-fit: cover;
+	object-position: 0px 20px;
+	bottom: 10px;
+	position: relative;
+}
+
+.cart {
+	height: 70px;
+	width: 70px;
+}
+
+.sign-img {
+	height: 30px;
+	width: 30px;
+	position: relative;
+	bottom: 5px;
+}
+
+i {
+  border: solid white;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 3px;
+
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.cart-down {
+
+}
+
+.nav-text {
+	font-family: Targetica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: white;
+	margin-left: 3px;
+	font-weight: bold;
+}
+
+.signin {
+		font-family: Targetica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 12px;
+		position: absolute;
+		top:45px;
+		left: 1505px;
+		color: white;
+
+}
+
+.space {
+	width: 30px;
+}
+.big-space {
+	width: 475px;
+}
+
+
+.search-container {
+  margin: 0px 30px 0px 20px;
+  border: solid 1px red;
+  width: 625px;
+  height: 40px;
+  border-radius: 25px;
+  overflow:hidden;
+}
+
+input[type=text] {
+  font-size: 17px;
+  float: left;
+  
+  height: 35px;
+  width:92%;
+  right:3px;
+}
+
+button {
+  float: left;
+  height:40px;
+  width:40px;
+}
